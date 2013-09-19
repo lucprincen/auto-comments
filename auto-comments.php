@@ -58,8 +58,8 @@
 	 * @access public
 	 * @param array $response
 	 * @param array $data
-	 * @param string $screen_id
-	 * @return void
+	 * @param string $screen_id (optional)
+	 * @return array
 	 */
 
 
@@ -133,7 +133,6 @@
 	 * Load the scripts in the footer.
 	 *
 	 * @access public
-	 * @param mixed $class
 	 * @return void
 	 */
 	add_action( 'wp_footer', 'wpc_enqueue_scripts' );
