@@ -90,13 +90,13 @@
 				
 
 				//Query the new comments for this post that have been posted since:
-	        	$_comments = $wpdb->get_results( "
+	        	$_comments = $wpdb->get_results( $wpdb->prepare( "
 	 					SELECT * 
 	 					FROM $wpdb->comments 
 	 					WHERE comment_post_ID = $post_id 
 	 					AND comment_date >= '$time' 
 
-	 				 ");
+	 				 "));
 
 
 	        	//Now, output the newest comments in html:
