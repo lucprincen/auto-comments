@@ -9,4 +9,4 @@ for the talk "WordPress' Pusle; diving into the Heartbeat API".
 
 /*================= Addendum ===================*/
 
-Lets reinvigorate this bitch.
+Lets reinvigorate this bitch. Updates through zip and git.

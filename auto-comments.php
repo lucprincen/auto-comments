@@ -3,7 +3,7 @@
  * Plugin Name: Auto updating Comments
  * Plugin URI: http://www.chefduweb.nl
  * Description: Auto-updating comments using the Heartbeat API
- * Version: 1.1
+ * Version: 1.3
  * Author: Luc Princen
  * Author URI: http://www.chefduweb.nl
  * Requires at least: 3.6
